@@ -157,7 +157,7 @@ void draw(){
        treasureY=(480-treasure.height)*randomP/100;
       image(treasure,treasureX,treasureY);
       colorMode(RGB);
-      rect(5, 5, (Hp.width-15)*HP_num/100, Hp.height*0.7);
+      rect(5, 5, (Hp.width-10)*HP_num/100, Hp.height*0.7);
       fill(255,0,0);
       image(Hp,0,0);
       x+=5;
